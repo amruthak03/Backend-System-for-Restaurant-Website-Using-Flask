@@ -22,8 +22,8 @@ This project implements the backend system for a restaurant website using Flask.
   - OrderItems: A relationship table for orders and ordered items, tracking quantities.
 
   ## Project Structure
-  - models.py: Contains database models for User, Item, Order, and OrderItems.
-  - apis.py: Contains API routes for signup, login, order management, item management, and role-based operations.
+  - app/models.py: Contains database models for User, Item, Order, and OrderItems.
+  - app/apis.py: Contains API routes for signup, login, order management, item management, and role-based operations.
   - main.py: Starts the Flask application and handles routing.
   - requirements.txt: Lists all the necessary dependencies for the project.
  
